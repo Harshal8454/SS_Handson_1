@@ -44,3 +44,14 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT
+Max argument length (exec): 2097152
+Max processes per user: 30349
+Clock ticks per second: 100
+Max open files: 1048576
+Page size: 4096 bytes
+Total number of pages in memory: 1961096
+Available pages in memory: 144472
+*/
