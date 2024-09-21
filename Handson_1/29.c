@@ -61,5 +61,5 @@ int main() {
 OUTPUT
 Current scheduler is SCHED_OTHER
 sched_setscheduler (SCHED_FIFO): Operation not permitted
-sched_setscheduler (SCHED_RR): Operation not permitteds
+sched_setscheduler (SCHED_RR): Operation not permitted
 */

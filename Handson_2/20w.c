@@ -6,7 +6,7 @@ Date: 19th Sept, 2024.
 ============================================================================
 */
 
-// writer.c
+// First execute writer file so that it will have something to read.
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -31,3 +31,8 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT
+Message sent: Hello from the writer!
+*/

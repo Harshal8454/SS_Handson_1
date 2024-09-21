@@ -31,3 +31,8 @@ int main() {
 
     return 0;
 }
+
+/*
+OUTPUT
+Message received: Hello from the writer!
+*/

@@ -19,7 +19,7 @@ int main() {
         printf("In child - PID = %d\n", getpid());
     } else {
         printf("This is parent process - PID = %d\n", getpid());
-        sleep(30);  // Keep parent process alive to observe the zombie state
+        sleep(10);  // Keep parent process alive to observe the zombie state
         wait(NULL); // Wait for the child process to finish
     }
     return 0;
